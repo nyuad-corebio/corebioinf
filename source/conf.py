@@ -74,3 +74,4 @@ html_show_sphinx = False
 
 # custom.css is inside one of the html_static_path folders (e.g. _static)
 html_css_files = ["custom.css"]
+html_favicon = "images/favicon.ico"
