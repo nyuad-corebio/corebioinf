@@ -28,6 +28,8 @@ and whole genomes.
 |DCLAP-P1330-CGSB |16   |32GB   |7TB     |10.230.14.37 |varseq.abudhabi.nyu.edu                     |
 +-----------------+-----+-------+--------+-------------+--------------------------------------------+
 
+Please refer to this :ref:`document <cgsb_varseq>` for usage instructions
+
 Airflow
 -------
 

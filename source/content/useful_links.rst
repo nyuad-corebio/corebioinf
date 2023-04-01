@@ -14,6 +14,7 @@ Internal
 * Internal website for sequencing data analysis -> `Tsar Internal Nasqar Site <https://tsar.abudhabi.nyu.edu>`__
 * Public website for sequencing data analysis ->  `Nasqar Public Site <https://nasqar.abudhabi.nyu.edu>`__
 * Lims system for sequencing experiments -> `Miso LIMS Interface <https://miso.abudhabi.nyu.edu>`__
+* Access to biosails resource -> `Biosails <https://www.biorxiv.org/content/biorxiv/early/2019/01/02/509455.full.pdf>`__
 
 
 
