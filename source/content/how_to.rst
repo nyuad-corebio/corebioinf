@@ -214,29 +214,63 @@ This procedure explains how to request for dearchive data from gencore archive n
 
 Based on the request, we will start dearchive the data from the archive node as follows:- 
 
+.. Tip:: How to understand the archive status:
+
+     * released exists archived ->> unreadable state
+     * exists archived ->> readable state
+
 Once login to jubail login node, and will issue the de-archive as follows.
+
+To check the size of the de-archive directory.
+
+.. code:: bash
+
+    $dmfdu -d </archive/gencore/XXXX/XXXX/XXX>
+
+To issue the de-archive command.
 
 .. code:: bash 
 
     $ dmfget -d </archive/gencore/XXXX/XXXX/XXX>
 
-To check the real time status of the dearchive process
+To check the real time status of the dearchive process.
 
 .. code:: bash 
 
     $ watch -n2 dmfmonitor -d </archive/gencore/XXXX/XXXX/XXX>
 
-To check the state of each file
+To check the state of dearchive directory.
+(Note:- If you need to check the status of file, remove the "-d" flag)
 
 .. code:: bash 
 
     $ dmfls -d </archive/gencore/XXXX/XXXX/XXX>
 
-Once the data is dearchived, we will copy the data to the below location, as per below syntax.
+Once the data is dearchived, we will copy the data to the below location, as per below procedure.
+
+Below is the path of cgsb dearchive shared space.
 
 .. code:: bash
 
-    $ /scratch/gencore/dearchive/<net-id_jira_ticket>
+    $ /scratch/share/cgsb
+
+Create a net-id named directory. ( for eg:- if abc123 named user is the requester )
+
+.. code:: bash
+
+    $ mkdir /scratch/share/cgsb/abc123
+
+Transfer the data to the shared space
+
+.. code:: bash
+
+    $ rsync -avP </archive/gencore/XXXX/XXXX/XXX> /scratch/share/cgsb/abc123
+
+.. warning:: 
+     * Once the data copied to the cgsb shared location, the ownership will change from gencore to respective users.
+     * The copied files will consume space from the requested user quota.
+     * Once the storage quota reaches beyond your permitted value, you are unable to login to jubail node. In that case reach out to jubail support team.
+    
 
 .. _cgsb_miso:
 
