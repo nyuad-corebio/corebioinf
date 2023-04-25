@@ -251,6 +251,7 @@ If you need to check the status of file, remove the "-d" flag
 De-archive CGSB shared path
 ----------------------------
 
+This shared space is only visible to the end user and cgsb core team. 
 Below is the path of cgsb dearchive shared space.
 
 .. code:: bash
