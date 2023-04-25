@@ -247,7 +247,9 @@ If you need to check the status of file, remove the "-d" flag
 
     $ dmfls -d </archive/gencore/XXXX/XXXX/XXX>
 
-Once the data is dearchived, we will copy the data to the below location, as per below procedure.
+
+De-archive CGSB shared path
+----------------------------
 
 Below is the path of cgsb dearchive shared space.
 
@@ -270,7 +272,9 @@ Transfer the data to the shared space
 .. warning:: 
      * Once the data copied to the cgsb shared location, the ownership will change from gencore to respective users.
      * The copied files will consume space from the requested user quota.
+     * Once the files copied in this location will be available for 2 weeks. Hence kindly remove the directory once you copied the files.
      * Once the storage quota reaches beyond your permitted value, you are unable to login to jubail node. In that case reach out to jubail support team.
+     
     
 
 .. _cgsb_miso:
