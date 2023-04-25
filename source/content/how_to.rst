@@ -214,11 +214,6 @@ This procedure explains how to request for dearchive data from gencore archive n
 
 Based on the request, we will start dearchive the data from the archive node as follows:- 
 
-.. Tip:: How to understand the archive status:
-
-     * released exists archived ->> unreadable state
-     * exists archived ->> readable state
-
 Once login to jubail login node, and will issue the de-archive as follows.
 
 To check the size of the de-archive directory.
@@ -239,8 +234,14 @@ To check the real time status of the dearchive process.
 
     $ watch -n2 dmfmonitor -d </archive/gencore/XXXX/XXXX/XXX>
 
+
+.. Tip:: How to understand the archive status:
+
+     * released exists archived ->> unreadable state
+     * exists archived ->> readable state
+
 To check the state of dearchive directory.
-(Note:- If you need to check the status of file, remove the "-d" flag)
+If you need to check the status of file, remove the "-d" flag
 
 .. code:: bash 
 
