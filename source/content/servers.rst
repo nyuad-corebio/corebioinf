@@ -87,7 +87,7 @@ To request an account, please fill out this `form <https://docs.google.com/forms
 
 Please refer to this :ref:`document <cgsb_sftp>` for usage instructions
 
-.. note:: 
+.. warning:: 
      * This service is not intented for storing files. 
      * Credentials will be shared via `BOX <https://nyu.account.box.com/login>`__
     
