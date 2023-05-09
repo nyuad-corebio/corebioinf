@@ -38,7 +38,7 @@ Airflow is an open-source workflow management platform for developing, schedulin
 +-----------------+-----+-------+--------+-------------+--------------------------------------------+
 |Server Name      |CPU  |Memory |Storage |IP Address   |URL                                         |
 +=================+=====+=======+========+=============+============================================+
-|DCLAP-P1341-CGSB |16   |32GB   |150G    |10.230.14.38 |http://cgsb-airflow.abudhabi.nyu.edu:8080   |
+|DCLAP-P1341-CGSB |16   |32GB   |150G    |10.230.14.38 |http://guru.abudhabi.nyu.edu                |
 +-----------------+-----+-------+--------+-------------+--------------------------------------------+
 
 
@@ -80,7 +80,7 @@ This server hosts the file transfer service to share and receive files with exte
 +-----------------+-----+-------+--------+---------------+---------------------------------------------+
 |Server Name      |CPU  |Memory |Storage |IP Address     |URL                                          |
 +=================+=====+=======+========+===============+=============================================+
-|EELAP-V1349-FTP  |6    |8GB    |5TB     |10.230.240.240 |cgsb-sftp.abudhabi.nyu.edu                   |
+|EELAP-V1349-FTP  |6    |8GB    |10TB    |10.230.240.240 |cgsb-sftp.abudhabi.nyu.edu                   |
 +-----------------+-----+-------+--------+---------------+---------------------------------------------+
 
 To request an account, please fill out this `form <https://docs.google.com/forms/d/e/1FAIpQLSeQ9A2yF2s0iFzVpCYr_aYneD-l4x_Y5iEMiGPxNIhaO9eOAA/viewform>`__
