@@ -398,7 +398,20 @@ Seurat
 
 R toolkit for single cell genomics.
 
-**a) 4.2.0**
+**b) 5.0.0**
+
+.. code:: bash 
+
+    .libPaths("/scratch/gencore/software/RStudio/Seurat/5.0.0")
+    library("Seurat")
+
+To verify the library path is set or not using 
+
+.. code:: bash 
+
+    .libPaths()
+
+**b) 4.2.0**
 
 .. code:: bash 
 
@@ -411,7 +424,7 @@ To verify the library path is set or not using
 
     .libPaths()
 
-**b) 3.2.3**
+**c) 3.2.3**
 
 .. code:: bash 
 
@@ -424,7 +437,7 @@ To verify the library path is set or not using
 
     .libPaths()
 
-**c) 2.3.0**
+**d) 2.3.0**
 
 .. code:: bash 
 
